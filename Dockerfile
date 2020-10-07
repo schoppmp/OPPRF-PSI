@@ -10,6 +10,7 @@ RUN apt-get install -y libssl-dev
 RUN apt-get install -y libntl-dev
 RUN apt-get install -y pkg-config
 RUN apt-get install -y glib2.0
+RUN apt-get install -y git
 
 WORKDIR opprf_psi
 
